@@ -1,0 +1,195 @@
+@charset "utf-8";
+@media only screen and (max-width: 766px){
+	
+	.album{
+		text-align: center;
+	}
+	
+	.contactinfo{
+		text-align: center;
+	}
+	
+	.links{
+		text-align: center;
+	}
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald' !important;
+	text-transform: uppercase;
+	background: #000000 !important;
+}
+
+p{
+	color: #FFFFFF;
+}
+
+.container{
+	width: 100%;
+}
+
+/********** NAVIGATION **********/
+
+
+.navbar{
+	background: #000000;
+	border: none;
+}
+
+.fa-bars{
+	color: #FFFFFF;
+    display: inline-block;
+	vertical-align: middle;
+}
+
+.logo{
+	width: 60px;
+	height: 40px;
+}
+
+.nav-link{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.nav-link:hover{
+	color: #717171;
+}
+
+button:focus{
+	outline: none !important;
+}
+
+
+/********** SECTIONS **********/
+
+#Home{
+	width: 100%;
+	height: 759px;
+	background: url('../img/Steel Banglez 2.jpg');
+	display: inline-block;
+	margin-bottom: -7px;
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	background-position: center;
+}
+
+#Music{
+	width: 100%;
+	height: auto;
+	background-color: #000000;
+	display: inline-block;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+	background-position: center;
+	margin-bottom: 40px;
+}
+
+#Videos{
+}
+
+/********** BUTTON **********/
+
+.btn{
+	background: #000000;
+	border-style: solid;
+	border-width: 2px !important;
+	border-color: #717171 !important;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	overflow: hidden;
+	font-size: 13px !important;
+}
+
+.btn:hover{
+    background: #717171;
+}
+
+.btn:focus{
+	outline: 0;
+}
+
+/********** MUSIC **********/
+
+.musicsection{
+	margin-top: 30px;
+}
+
+.album{
+	width: 270px;
+	height: 270px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+/********** VIDEO **********/
+
+iframe{
+	margin-bottom: -10px;
+}
+
+
+/********** CONTACT **********/
+
+.aboutspace{
+	margin-top: 200px;
+}
+
+.contactinfo{
+	display: inline-block;
+	font-size: 13px;
+	margin-top: 200px;
+}
+
+/********** FOOTER **********/
+
+.footer{
+	background: #000000;
+	border-top: none;
+	color: #FFFFFF;
+	padding: 25px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	font-size: 12px;
+	text-align: center;
+}
+
+.fa-2x{
+	margin-left: 10px;
+	color: #FFFFFF;
+	font-size: 1.5em !important;
+}
+
+.fa-2x:hover{
+	color: #717171;
+}
+
+.socialmedia{
+	text-align: center;
+    margin-top: 10px;
+}
+
+.copyright{
+	text-align: center;
+}
+
+.links{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.links:hover{
+	color: #717171;
+	text-decoration: none;
+}
