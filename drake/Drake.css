@@ -45,8 +45,8 @@
 
 @font-face{
 	font-family: 'Roc Grotesk ExtraWide';
-	src: url('../fonts/Kostic - Roc Grotesk ExtraWide Light.otf') format("opentype");
-	src: url('../fonts/Kostic - Roc Grotesk ExtraWide Medium.otf') format("opentype");
+	src: url('/fonts/Kostic - Roc Grotesk ExtraWide Light.otf') format("opentype");
+	src: url('/fonts/Kostic - Roc Grotesk ExtraWide Medium.otf') format("opentype");
 }
 
 div{
@@ -123,7 +123,7 @@ a{
 	height: 759px;
 	display: inline-block;
 	margin-bottom: -7px;
-	background: url('/img/DLDT.jpg');
+	background: url('/img/DLDT Fade.png');
 	background-repeat: no-repeat !important;
 	background-size: cover;
 	background-position: center;
