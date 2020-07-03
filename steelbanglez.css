@@ -74,7 +74,7 @@ button:focus{
 #Home{
 	width: 100%;
 	height: 759px;
-	background: url('images/Steel_Banglez_2.jpg');
+	background: url("images/Steel_Banglez_2.jpg");
 	display: inline-block;
 	margin-bottom: -7px;
 	background-repeat: no-repeat !important;
