@@ -1,0 +1,216 @@
+@charset "utf-8";
+@media only screen and (max-width: 766px){
+	
+	.artist {
+	text-align: center !important;
+	}
+	
+	.rosterinfo {
+	text-align: center !important;
+	}
+	
+	.contactinfo{
+		text-align: center;
+	}
+	
+	.copyright {
+	text-align: center !important;
+	}
+	
+	.socialmedia{
+		text-align: center !important;
+	}
+}
+
+/********** SCROLLBAR **********/
+
+body::-webkit-scrollbar{
+background-color: #000000;	
+width: 5px;
+}
+
+body::-webkit-scrollbar-thumb{
+background-color: #c99e67;	
+border-radius: 8px;
+}
+
+body{
+	font-family: 'Archivo Black' !important;
+	text-transform: uppercase;
+}
+
+.homebg{
+	background-repeat: no-repeat;
+	background: #000000;
+}
+
+.bg{
+	background: #000000;
+}
+
+p{
+	color: #FFFFFF;
+}
+
+.container{
+	width: 100%;
+}
+
+/********** NAVIGATION **********/
+
+.navbar{
+	background: #000000;
+}
+
+.fa-bars{
+	color: #FFFFFF;
+    display: inline-block;
+	vertical-align: middle;
+}
+
+.logo{
+	width: 55px;
+	height: 60px;
+}
+
+.nav-link{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.nav-link:hover{
+	color: #c99e67;
+}
+
+button:focus{
+	outline: none !important;
+}
+
+
+/********** HOME **********/
+
+.homespace{
+	margin-top: 252px;
+}
+
+.homeinfo{
+	color: #FFFFFF;
+	margin-bottom: 265px;
+}
+
+.img-fluid{
+	width: 500px;
+	height: 500px;
+	margin-bottom: 44px;
+}
+
+
+.btn{
+	background-color: #1E1E1E;
+	color: #FFFFFF;
+}
+
+.btn:hover{
+	background-color: #717171;
+}
+
+
+/********** ARTISTS **********/
+
+.artistspace{
+	margin-top: 170px;
+}
+
+.artist{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.artistname{
+	font-size: 12px;
+}
+
+.artistinfo{
+	font-size: 12px;
+}
+
+
+.profile{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.albuminfo{
+	font-size: 12px;
+}
+
+/********** ABOUT **********/
+
+
+.aboutspace{
+	margin-top: 247px;
+}
+
+.aboutinfo{
+	font-size: 13px;
+    text-align: inherit;
+}
+
+/********** CONTACT **********/
+
+.contactspace{
+	margin-top: 18px;
+}
+
+.contactinfo{
+	display: inline-block;
+	font-size: 13px;
+	margin-top: 200px;
+}
+
+/********** FOOTER **********/
+
+
+.footer{
+	background: #000000;
+	color: #FFFFFF;
+	padding: 25px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	font-size: 12px;
+	position: static;
+}
+
+.copyright{
+	float: left;
+	font-size: 10px;
+}
+
+.links{
+	color: #FFFFFF !important;
+	padding-right: 10px;
+}
+
+.links:hover{
+	color: #c99e67 !important;
+	text-decoration: none !important;
+}
+
+.socialmedia{
+	text-align: right;
+}
+
+.fa-2x{
+	margin-left: 10px;
+	color: #FFFFFF;
+	font-size: 1.5em !important;
+}
+
+.fa-2x:hover{
+	color: #c99e67;
+}
