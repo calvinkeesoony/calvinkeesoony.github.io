@@ -123,7 +123,7 @@ a{
 	height: 759px;
 	display: inline-block;
 	margin-bottom: -7px;
-	background: url('../img/DLDT Fade.png');
+	background: url('/img/DLDT.jpg');
 	background-repeat: no-repeat !important;
 	background-size: cover;
 	background-position: center;
@@ -134,7 +134,7 @@ a{
 	height: 759px;
 	display: inline-block;
 	margin-bottom: -7px;
-	background: url('../img/WhenToSayWhen.jpg');
+	background: url('/img/WhenToSayWhen.jpg');
 	background-repeat: no-repeat !important;
 	background-size: cover;
 	background-position: center;
@@ -157,7 +157,7 @@ a{
 	height: 759px;
 	display: inline-block;
 	margin-bottom: -7px;
-	background: url('../img/DLDT.jpg');
+	background: url('/img/DLDT.jpg');
 	background-repeat: no-repeat !important;
 	background-size: cover;
 	background-position: center;
@@ -168,7 +168,7 @@ a{
 	height: 759px;
 	display: inline-block;
 	margin-bottom: -7px;
-	background: url('../img/TopBoy.jpg');
+	background: url('/img/TopBoy.jpg');
 	background-repeat: no-repeat !important;
 	background-size: cover;
 	background-position: center;
@@ -179,7 +179,7 @@ a{
 	height: 759px;
 	display: inline-block;
 	margin-bottom: -7px;
-	background: url('../img/Top_Boy_Premiere.jpg');
+	background: url('/img/Top_Boy_Premiere.jpg');
 	background-repeat: no-repeat !important;
 	background-size: cover;
 	background-position: center;
