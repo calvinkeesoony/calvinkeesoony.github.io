@@ -1,0 +1,320 @@
+@charset "utf-8";
+@media only screen and (max-width: 766px) {
+	.bio{
+		margin-top: 150px !important;
+	}
+	
+	
+	.info{
+		margin-top: 100px !important;
+		text-align: center !important;
+	}
+	
+	.ventureovo{
+		text-align: center !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-top: 100px !important;
+	}
+	
+	.venturesound{
+		text-align: center !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-top: 100px !important;
+	}
+	
+	.dreamcrew{
+		text-align: center !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-top: 100px !important;
+	}
+	
+	.logos{
+		text-align: center !important;
+		float: none !important;
+	}
+	
+	.links{
+		float: none !important;
+		text-align: center !important;
+	}
+}
+
+
+@font-face{
+	font-family: 'Roc Grotesk ExtraWide';
+	src: url('../fonts/Kostic - Roc Grotesk ExtraWide Light.otf') format("opentype");
+	src: url('../fonts/Kostic - Roc Grotesk ExtraWide Medium.otf') format("opentype");
+}
+
+div{
+	font-family: 'Roc Grotesk ExtraWide';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+    text-transform: uppercase;
+	background-color: #000000 !important;
+}
+
+/********************************* nav *************************/
+
+
+.fa-bars{
+	color: #FFFFFF;
+	outline: none;
+	margin-top: 2px;
+}
+
+nav.navbar{
+	width: 100%;
+	background: #000000;
+}
+
+
+.navbar{
+	text-align: center !important;
+}
+
+.navbar-brand{
+	font-family: 'Roc Grotesk ExtraWide';
+	font-size: 14px !important;
+	color: #FFFFFF;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.navbar-brand:hover{
+	color: #FFFFFF;
+}
+
+.nav-link{
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.nav-link:hover{
+	color: #1164aa;
+}
+
+li{
+	text-align: center;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+/********************************* sections *************************/
+
+
+#home{
+	width: 100%;
+	height: 759px;
+	display: inline-block;
+	margin-bottom: -7px;
+	background: url('../img/DLDT Fade.png');
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	background-position: center;
+}
+
+#music{
+	width: 100%;
+	height: 759px;
+	display: inline-block;
+	margin-bottom: -7px;
+	background: url('../img/WhenToSayWhen.jpg');
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	background-position: center;
+}
+
+#about{
+	width: 100%;
+	height: 759px;
+	display: inline-block;
+	margin-bottom: -7px;
+	background-color: #000000;
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	background-position: center;
+}
+
+
+#DLDT{
+	width: 100%;
+	height: 759px;
+	display: inline-block;
+	margin-bottom: -7px;
+	background: url('../img/DLDT.jpg');
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	background-position: center;
+}
+
+#TopBoy{
+	width: 100%;
+	height: 759px;
+	display: inline-block;
+	margin-bottom: -7px;
+	background: url('../img/TopBoy.jpg');
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	background-position: center;
+}
+
+#ventures{
+	width: 100%;
+	height: 759px;
+	display: inline-block;
+	margin-bottom: -7px;
+	background: url('../img/Top_Boy_Premiere.jpg');
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	background-position: center;
+}
+
+.homepage{
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 350px;
+}
+
+.dldt{
+	color: #FFFFFF;
+	font-size: 22px;
+}
+
+.fa-2x{
+	font-size: 4px;
+}
+
+
+.musicpage{
+	font-size: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 400px;
+}
+
+.title{
+	color: #FFFFFF;
+}
+
+.title:hover{
+    color: #1164aa;
+}
+
+
+.bio{
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 300px;
+	padding-left: 30px;
+	padding-right: 30px;
+	animation: fadeIn;
+	animation-duration: 5s;
+}
+
+
+.venturespage{
+	font-size: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 400px;
+}
+
+
+.site{
+	color: #FFFFFF;
+}
+
+.site:hover{
+    color: #1164aa;
+}
+
+
+
+
+/********************************* venture *************************/
+
+.ventureovo{
+	margin-top: 260px;
+	margin-left: 300px;
+	width: 84px;
+	height: 120px;
+}
+
+.venturesound{
+	margin-top: 220px;
+	margin-left: 300px;
+	width: 102px;
+	height: 90px;
+}
+
+.venturecrew{
+	margin-top: 200px;
+	margin-left: 300px;
+	width: 100px;
+	height: 90px;
+}
+
+
+.info{
+	margin-top: 200px;
+	font-family: 'Roc Grotesk ExtraWide';
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: left;
+}
+
+
+/********************************* footer *************************/
+
+.footer{
+	width: 100%;
+	display: inline-block;
+	font-size: 8px;
+	background: #000000;
+	padding: 20px;
+}
+
+a{
+	margin-right: 20px;
+}
+
+.ovo{
+	width: 24px;
+	height: 30px;
+}
+
+.logos{
+	float: left;
+}
+
+.links{
+	margin-top: 10px;
+	text-align: right;
+}
+
+.actuallink{
+	color: #FFFFFF;
+	text-decoration: none !important;
+}
+
+.actuallink:hover{
+	color: #1164aa;
+}
