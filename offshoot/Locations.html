@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Locations</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/offshootnew.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+		<a href="Home.html">
+		<img class="logo" alt="logo" src="images/Offshoot Logo Final.png">
+		</a>
+		</div>
+    <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Locations.html">Locations</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+		    <li><a href="Register.php">Register</a></li>
+		    <li><a href="Login.php">Log in</a></li>
+          </ul>
+    </div>
+  </div>
+</nav>
+	
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<p class="locationstitle">locations</p>
+<p class="locations">To add any location, use the map shown on the left. Users will be rewarded with one point, per new location.
+Each icon displays a certain item of food, that will match the corresponding plant. 
+</p>
+</div>
+</div>
+<br>
+
+<div class="row">
+<div class="col-md-6 text-center">
+<div class="embed-responsive embed-responsive-4by3">
+<iframe src="https://www.google.com/maps/d/embed?mid=1S8KMqGeO1emx4Ohkz0Z30roumMcA8hVo" class="embed-responsive-item"></iframe>	
+</div>
+</div>
+
+<div class="col-md-6 text-center">
+<form name="submit-to-google-sheet">
+  <label>Address</label>
+	<br>
+  <input name="address" type="text" placeholder="House Number" pattern="[0-9]{3}" required title="Enter three numbers">
+	<br>
+	<br>
+  <input name="address2" type="text" placeholder="Street Name">
+	<br>
+	<br>
+  <input name="city" type="text" placeholder="City/Town">
+	<br>
+	<br>
+  <input name="postcode" type="text" placeholder="Postcode" pattern="[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]? [0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}"
+ title="3 letters & 3 numbers min">
+	<br>
+	<br>
+  <label>Plant Type</label>
+	<br>
+	<select name="plant">
+	<option value="tree">TREE</option>
+	<option value="shrub">SHRUB</option>
+	</select>
+	<br>
+	<br>
+  <label>Description</label>
+	<br>
+  <textarea input name="description">
+  </textarea>
+	<br>
+	<br>
+  <label>Rating</label>
+	<br>
+<div class="rating">	
+<input id="star1" type="radio" name="rating" value="1">
+<label for="star1" aria-hidden="true">
+<i class="fas fa-star"></i>
+</label>
+
+	
+<input id="star2" type="radio" name="rating" value="2">
+<label for="star2" aria-hidden="true">
+<i class="fas fa-star"></i>
+</label>	
+	
+<input id="star3" type="radio" name="rating" value="3">
+<label for="star3" aria-hidden="true">
+<i class="fas fa-star"></i>
+</label>
+
+<input id="star4" type="radio" name="rating" value="4">
+<label for="star4" aria-hidden="true">
+<i class="fas fa-star"></i>
+</label>
+
+<input id="star5" type="radio" name="rating" value="5">
+<label for="star5" aria-hidden="true">
+<i class="fas fa-star"></i>
+</label>
+</div>	
+<br>
+<br>
+<button type="submit">SUBMIT</button>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+</div>
+</body>
+	
+<footer>
+	<a href="https://www.facebook.com/OffshootInc" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+    <a href="https://twitter.com/Offshoot_Inc?lang=en-gb" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+    <a href="https://www.instagram.com/offshoot_inc/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+    <p class="copyright">&copy; 2018 Calvin Keeesoony / Offshoot. All Rights Reserved.</p>
+</footer>
+</html>
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+<script>
+	 const scriptURL = 'https://script.google.com/macros/s/AKfycbzUxJE-ryi7fDZhELOxtvUdkQ7-OlNUBO-x0EnzbOeKJadQOsTS/exec'
+     const form = document.forms['submit-to-google-sheet']
+
+     form.addEventListener('submit', e => {
+     e.preventDefault()
+     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+     .then(response => console.log('Success!', response))
+     .catch(error => console.error('Error!', error.message))
+	 });
+	
+</script>

@@ -1,0 +1,260 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 400;
+	color: #BCAB70 !important;
+	font-size: 10pt;
+}
+
+
+.logo {
+	width: 180px;
+	height: 80px;
+   padding: 10px;
+}
+
+.navbar-default {
+	background-color: #0E2C00;
+	border-color: #0E2C00;
+	border-radius: 0px;
+}
+
+.nav {
+	margin-right: 30px;
+}
+
+li {
+	margin-top: 10px;
+}
+
+
+a {
+	color: #FFFFFF !important;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+
+a:hover {
+	color: #BCAB70 !important;
+	display: inline;
+}
+
+
+.home{
+	color: #BCAB70 !important;
+	font-size: 20px;
+}
+
+.aboutbg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.abouttitle {
+	font-size: 22px;
+	color: #BCAB70 !important;
+}
+
+
+.about {
+	font-size: 22px;
+	color: #BCAB70 !important;
+	animation: fadein 3s;
+}
+
+.locationsbg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.locationstitle {
+	font-size: 22px;
+	color: #BCAB70 !important;
+	animation: fadein 3s;
+}
+
+.locations {
+	font-size: 22px;
+	color: #BCAB70 !important;
+	animation: fadein 3s;
+}
+
+.conactbg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.contacttitle {
+	font-size: 22px;
+	color: #BCAB70 !important;
+}
+
+.contact {
+	font-size: 22px;
+	color: #BCAB70 !important;
+	animation: fadein 3s;
+}
+
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+
+.fb-login-button{
+	float: left;
+    margin-left: 840px;
+	margin-top: 200px;
+}
+
+
+footer {
+	width: 100%;
+	background-color: #0E2C00;
+	color: #FFFFFF;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+
+.copyright {
+	padding: 20px;
+	margin-top: -10px;
+	color: #FFFFFF;
+}
+
+.fa-2x {
+	font-size: 20px;
+	text-decoration: none;
+	overflow: hidden;
+	margin-top: 20px;
+	margin: 10px;
+	color: #FFFFFF;
+	display: inline-block;
+}
+
+.fa-2x:hover {
+	color: #BCAB70 !important;
+}
+
+.info {
+	font-size: 18px;
+	color: #BCAB70 !important;
+}
+
+.rating {
+    direction: rtl;
+    display: inline-block;
+    padding: 20px
+}
+
+.rating input[type=radio] {
+    display: none
+}
+
+.rating label {
+    color: #bbb;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input[type=radio]:checked ~ label {
+    color: #f2b600
+}
+
+
+button {
+    background-color: #0E2C00;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+
+textarea{
+	resize: none;
+	width: 200px;
+	height: 100px;
+}
+
+input{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	text-transform: uppercase;
+	font-stretch: normal;
+}
+
+img{
+	width: 100%;
+	max-width: 360px;
+}
+
+.battersea{
+	width: 100%;
+	max-width: 760px;
+}
+
+.bushy{
+	width: 100%;
+	max-width: 760px;
+}
+
+.crystal{
+	width: 100%;
+	max-width: 760px;
+}
+
+.green{
+	width: 100%;
+	max-width: 760px;
+}
+
+.greenwich{
+	width: 100%;
+	max-width: 760px;
+}
+
+.hyde{
+	width: 100%;
+	max-width: 760px;
+}
+
+.kensington{
+	width: 100%;
+	max-width: 760px;
+}
+
+.richmond{
+	width: 100%;
+	max-width: 760px;
+}
+
+.stjames{
+	width: 100%;
+	max-width: 760px;
+}
+
+.theregents{
+	width: 100%;
+	max-width: 760px;
+}

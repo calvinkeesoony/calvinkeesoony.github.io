@@ -40,6 +40,17 @@
 		float: none !important;
 		text-align: center !important;
 	}
+	
+	.album{
+		margin-top: 100px !important;
+		text-align: center !important;
+	}
+	
+	
+	.albuminfo{
+		text-align: center !important;
+	}
+	
 }
 
 
@@ -206,6 +217,28 @@ a{
 	animation-duration: 5s;
 }
 
+
+.album{
+	margin-top: 100px;
+	width: 500px;
+	height: 500px;
+}
+
+
+.albuminfo{
+	margin-top: 300px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+
+.albumlink{
+	color: #FFFFFF;
+}
+
+.albumlink:hover{
+	color: #1164aa;
+}
 
 .venturespage{
 	font-size: 22px;
