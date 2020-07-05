@@ -49,8 +49,13 @@
 	
 	.albuminfo{
 		text-align: center !important;
+		margin-top: 100px !important;
 	}
 	
+	
+	.albumlink{
+		text-align: center !important;
+	}
 }
 
 
@@ -234,6 +239,7 @@ a{
 
 .albumlink{
 	color: #FFFFFF;
+	display: block;
 }
 
 .albumlink:hover{
