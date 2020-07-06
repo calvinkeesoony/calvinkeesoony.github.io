@@ -101,16 +101,18 @@ button:focus{
 .btn{
 	background: #000000;
 	border-style: solid;
-	border-width: 2px !important;
+	border-width: 1.5px !important;
 	border-color: #717171 !important;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	overflow: hidden;
 	font-size: 13px !important;
+	border-radius: 0px !important;
 }
 
 .btn:hover{
     background: #717171;
+	transition: 1s;
 }
 
 .btn:focus{
