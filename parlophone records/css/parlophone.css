@@ -1,0 +1,453 @@
+@charset "utf-8";
+@media only screen and (max-width: 766px){
+	
+	.biogrpahy{
+		text-align: center;
+	}
+	
+	.profile{
+		text-align: center;
+	}
+	
+	.dlinfo{
+		text-align: center;
+	}
+	
+	.frrinfo{
+		text-align: center;
+	}
+	
+	.grminfo{
+		text-align: center;
+	}
+	
+	.waminfo{
+		text-align: center;
+	}
+	
+	.contactinfo{
+		text-align: center;
+	}
+	
+	.copyright {
+	text-align: center !important;
+	}
+	
+	.socialmedia{
+		text-align: center !important;
+	}
+}
+
+body{
+    font-family: 'Abel', sans-serif !important;
+    text-transform: uppercase;
+}
+
+/********** NAVIGATION **********/
+
+
+.navbar{
+	background: #FFFFFF;
+}
+
+.fa-bars{
+	color: #000000;
+    display: inline-block;
+	vertical-align: middle;
+}
+
+.logo{
+	width: 92px;
+	height: 60px;
+}
+
+.nav-link{
+	text-align: center;
+	color: #000000;
+}
+
+.nav-link:hover{
+	color: #d1a47a;
+}
+
+button:focus{
+	outline: none !important;
+}
+
+
+/********** HOME PAGE **********/
+
+
+.homespace{
+	margin-top: 583px;
+}
+
+.bg{
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+
+/********** ARTIST PAGE **********/
+
+
+.artisttop{
+	margin-top: 50px;
+}
+
+.artist{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	object-fit: cover;
+}
+
+.artistspace{
+	margin-top: 40px;
+}
+
+.artistcrop{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	object-fit: cover;
+}
+
+.ashnikko{
+	display: inline;
+	object-position: left;
+	margin-right: 89px;
+}
+
+.label1{
+	width: 30px;
+	height: 30px;
+	object-position: right;
+}
+
+.balcony{
+	display: inline;
+	object-position: left;
+	margin-right: 89px;
+}
+
+.label2{
+	width: 30px;
+	height: 30px;
+	object-position: right;
+}
+
+.banx{
+	display: inline;
+	object-position: left;
+	margin-right: 71px;
+}
+
+.label3{
+	width: 30px;
+	height: 30px;
+	object-position: right;
+}
+
+.coldplay{
+	display: inline;
+	object-position: left;
+	margin-right: 89px;
+}
+
+.label4{
+	width: 30px;
+	height: 30px;
+	object-position: right;
+}
+
+.dinosaur{
+	display: inline;
+	object-position: left;
+	margin-right: 37px;
+}
+
+.label5{
+	width: 30px;
+	height: 30px;
+	display: inline;
+	object-position: right;
+}
+
+
+.gorillaz{
+	display: inline;
+	object-position: left;
+	margin-right: 89px;
+}
+
+.label6{
+	width: 30px;
+	height: 30px;
+	object-position: right;
+}
+
+
+.hamzaa{
+	display: inline;
+	object-position: left;
+	margin-right: 101px;
+}
+
+.label7{
+	width: 30px;
+	height: 30px;
+	display: inline;
+    object-position: right;	
+}
+
+.kano{
+	display: inline;
+	object-position: left;
+	margin-right: 118px;
+}
+
+.label8{
+	width: 30px;
+	height: 30px;
+	object-position: right;
+}
+
+.thesnuts{
+	display: inline;
+	object-position: left;
+	margin-right: 83px;
+}
+
+.label9{
+	width: 30px;
+	height: 30px;
+	object-position: right;
+}
+
+.stereophonics{
+	display: inline;
+	object-position: left;
+	margin-right: 50px;
+}
+
+.label10{
+	width: 30px;
+	height: 30px;
+	object-position: right;
+}
+
+.tinie{
+	display: inline;
+	object-position: left;
+	margin-right: 69px;
+}
+
+.label11{
+	width: 25px;
+	height: 40px;
+	object-position: right;
+}
+
+
+.yxng{
+	display: inline;
+	object-position: left;
+	margin-right: 85px;
+}
+
+.label12{
+	width: 25px;
+	height: 40px;
+	object-position: right;
+}
+
+
+
+/********** PROFILE PAGE **********/
+
+
+.profile {
+	display: inline;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.artwork1{
+	display: inline;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.artwork2{
+	display: inline;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.press1{
+	display: inline;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.press2{
+	display: inline;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+/********** ABOUT PAGE **********/
+
+
+.parlophone{
+	display: inline;
+	width: 100%;
+	width: 150px;
+	height: 150px;
+	margin-top: 40px;
+}
+
+.pinfo{
+	font-size: 13px;
+}
+
+
+.aboutspace{
+	margin-top: 80px;
+}
+
+.subsidaries{
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+.dl{
+	width: 65px;
+	height: 90px;
+}
+
+.grm{
+	width: 79px;
+	height: 90px;
+}
+
+.ffrr{
+	width: 90px;
+	height: 90px;
+}
+
+.wam{
+	margin-top: 40px;
+	width: 150px;
+	height: 17px;
+}
+
+/********** LABEL PAGE **********/
+
+
+.dl2{
+	display: inline;
+	width: 100%;
+	width: 150px;
+	height: 210px;
+}
+
+
+.dlinfo{
+	display: inline;
+	float: right;
+	font-size: 14px;
+}
+
+.ffrr2{
+	display: inline;
+	width: 100%;
+	width: 210px;
+	height: 210px;
+}
+
+.ffrrinfo{
+	display: inline;
+	float: right;
+	font-size: 14px;
+}
+
+.grm2{
+	display: inline;
+	width: 100%;
+	width: 185px;
+	height: 210px;
+}
+
+.grminfo{
+	display: inline;
+	float: right;
+	font-size: 14px;
+}
+
+
+.wam2{
+	display: inline;
+	width: 100%;
+	width: 210px;
+	height: 24px;
+	margin-top: 60px;
+}
+
+.waminfo{
+	display: inline;
+	float: right;
+	font-size: 14px;
+}
+
+
+/********** CONTACT **********/
+
+.contacttop{
+	margin-top: 111px;
+}
+
+.contactinfo{
+	display: inline;
+	font-size: 14px;
+}
+
+
+/********** FOOTER **********/
+
+
+.footer{
+	background: #000000;
+	color: #FFFFFF;
+	padding: 25px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+.copyright{
+	float: left;
+}
+
+.socialmedia{
+	text-align: right;
+}
+
+.fa-2x{
+	margin-left: 10px;
+	color: #FFFFFF;
+	font-size: 1.5em !important;
+}
+
+.fa-2x:hover{
+	color: #d1a47a;
+}
