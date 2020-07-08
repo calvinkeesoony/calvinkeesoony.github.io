@@ -227,8 +227,9 @@ a{
 
 .img-fluid{
 	margin-top: 100px;
-	width: 500px;
-	height: 500px;
+	width: 500px !important;
+	height: 500px !important;
+	object-fit: cover;
 }
 
 
@@ -266,6 +267,13 @@ a{
 }
 
 
+
+.musicinfo{
+	margin-top: 10px;
+	font-size: 10px;
+	color: #FFFFFF;
+    display: block;
+}
 
 
 /********************************* venture *************************/
