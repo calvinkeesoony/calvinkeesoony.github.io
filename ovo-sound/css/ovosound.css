@@ -223,6 +223,47 @@ a{
 }
 
 
+.roster{
+	width: 100%;
+	height: 500px;
+	margin-top: 30px;
+	object-fit: cover;
+}
+
+.rosterinfo{
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+
+.website{
+	color: #FFFFFF;
+}
+
+.website:hover{
+	color: #7a382c;
+}
+
+.fa-2x{
+	color: #FFFFFF;
+	font-size: 20px !important;
+	margin: 5px;
+	margin-bottom: 100px;
+}
+
+.fa-2x:hover{
+	color: #7a382c;
+}
+
+.rosteralbum{
+	margin-top: 10px;
+	width: 175px;
+	height: 175px;
+	margin-left: 2px;
+}
+
+
 /********************************* venture *************************/
 
 .info{
