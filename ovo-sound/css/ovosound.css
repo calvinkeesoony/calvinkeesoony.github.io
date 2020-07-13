@@ -1,6 +1,19 @@
 @charset "utf-8";
 @media only screen and (max-width: 766px) {
 	
+	.rosterinfo{
+		text-align: center;
+	}
+	
+	.catergories{
+		text-align: center !important;
+	}
+	
+	.rosteralbum{
+		text-align: center;
+		margin-top: 50px;
+	}
+	
 	.actuallink{
 		float: none !important;
 		text-align: center !important;
@@ -32,6 +45,7 @@ body{
     text-transform: uppercase;
 	background-color: #000000 !important;
 	font-family: 'Heebo', sans-serif !important;
+	color: #FFFFFF;
 }
 
 /********************************* nav *************************/
@@ -118,13 +132,15 @@ a{
 	color: #1164aa;
 }
 
+/**************************************** SECTION ************************************/
+
 
 #home{
 	width: 100%;
 	height: 759px;
 	display: inline-block;
 	margin-bottom: -7px;
-	background: url("../img/Home.jpg");
+	background: url("../img/OVO Office 1.jpg");
 	background-repeat: no-repeat !important;
 	background-size: cover;
 	background-position: center;
@@ -202,7 +218,7 @@ a{
 	height: 759px;
 	display: inline-block;
 	margin-bottom: -7px;
-	background: url("../img/About.jpg");
+	background: url("../img/../img/OVO Yorkdale.jpg");
 	background-repeat: no-repeat !important;
 	background-size: cover;
 	background-position: center;
@@ -256,13 +272,68 @@ a{
 	color: #7a382c;
 }
 
-.rosteralbum{
+
+/**************************************** ROSTER ************************************/
+
+
+.rosterpress{
 	margin-top: 10px;
-	width: 175px;
-	height: 175px;
-	margin-left: 2px;
+	width: 170px;
+	height: 200px;
+	object-fit: cover;
 }
 
+.rosteralbum{
+	width: 350px;
+	height: 350px;
+	margin-left: 15px;
+}
+
+.pndlogo{
+	width: 350px;
+	height: 25px;
+	margin-top: 300px;
+}
+
+
+.mjlogo{
+	width: 70px;
+	height: 100px;
+	margin-top: 300px;
+}
+
+.dvsnlogo{
+	width: 120px;
+	height: 100px;
+	margin-top: 300px;
+}
+
+
+.bakalogo{
+	width: 70px;
+	height: 100px;
+	margin-top: 300px;
+}
+
+
+.popcaanlogo{
+	width: 250px;
+	height: 120px;
+	margin-top: 300px;
+}
+
+
+.roywoodslogo{
+	width: 350px;
+	height: 50px;
+	margin-top: 300px;
+}
+
+.catergories{
+	text-align: left;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
 
 /********************************* venture *************************/
 
