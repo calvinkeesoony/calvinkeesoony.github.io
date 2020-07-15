@@ -17,12 +17,18 @@
 		text-align: center;
 	}
 	
+	.rosterpress{
+		text-align: center !important;
+		display: inline-block;
+	}
+	
 	.catergories{
 		text-align: center !important;
 	}
 	
-	.rosteralbum{
-		text-align: center;
+	.img-fluid{
+		text-align: center !important;
+		display: inline-block;
 		margin-top: 50px;
 	}
 	
@@ -117,15 +123,6 @@ a{
 .title{
 	color: #FFFFFF;
 }
-
-
-.img-fluid{
-	margin-top: 100px;
-	width: 500px !important;
-	height: 500px !important;
-	object-fit: cover;
-}
-
 
 .albuminfo{
 	margin-top: 300px;
@@ -295,7 +292,7 @@ a{
 	object-fit: cover;
 }
 
-.rosteralbum{
+.img-fluid{
 	width: 350px;
 	height: 350px;
 	margin-left: 15px;
