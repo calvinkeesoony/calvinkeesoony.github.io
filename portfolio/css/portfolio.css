@@ -1,0 +1,190 @@
+@charset "utf-8";
+@media only screen and (max-width: 766px){
+	
+	.vital{
+		text-align: center !important;
+		margin-top: 60px;
+	}
+	
+	.steel{
+		text-align: center !important;
+		margin-top: 60px;
+	}
+	
+	.nm{
+		text-align: center !important;
+		margin-top: 60px;
+	}
+	
+	.jj{
+		text-align: center !important;
+		margin-top: 60px;
+	}
+	
+	.sevenfallsinfo{
+		text-align: center !important;
+		margin-top: 60px;
+	}
+	
+	.spotify{
+	    text-align: center !important;
+		margin-top: 60px;
+	}
+	
+	.ig{
+		text-align: center !important;
+		margin-top: 60px;
+	}
+	
+	.youtube{
+		text-align: center !important;
+		margin-top: 60px;
+	}
+}
+
+body{
+	font-family: 'Kadwa', serif !important;
+	text-transform: uppercase;
+	background: #000000 !important;
+	color: #FFFFFF !important;
+}
+
+.navbar{
+	background: #000000;
+	margin: 10px;
+}
+
+.fa-bars{
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 22px;
+	text-align: center;
+}
+
+
+.navbar-brand{
+	color: #FFFFFF;
+}
+
+.navbar-brand:hover{
+	color: #FFFFFF;
+}
+
+.nav-item{
+	text-align: center;
+}
+
+.nav-link{
+	color: #FFFFFF;
+}
+
+.nav-link:hover{
+	color: #FF0004;
+}
+
+button:focus{
+	outline: none !important;
+}
+
+/******************* WORK *******************/
+
+.workspace{
+	margin-top: 100px;
+}
+
+.vital{
+
+}
+
+.steel{
+    margin-top: 20px;
+}
+
+.nm{
+    margin-top: 45px;
+}
+
+.jj{
+
+}
+
+/******************* VITAL NEW YORK *******************/
+
+.vitalspace{
+	margin-top: 100px;
+}
+
+.vitalinfo{
+	color: #FFFFFF;
+}
+
+.artwork{
+	width: 450px;
+	height: 450px;
+}
+
+.ig{
+	width: 300px;
+	height: 450px;
+}
+
+.youtube{
+	width: 450px;
+	height: 75px;
+}
+
+.spotify{
+	width: 450px;
+	height: 220px;
+}
+
+/*************** Steel **********************/
+
+.steelsite{
+	width: 500px;
+	height: 340px;
+}
+
+
+/******************* ABOUT *********************/
+
+.aboutspace{
+	margin-top: 50px;
+}
+
+.frame1{
+	width: 370px;
+	height: 300px;
+}
+
+.frame2{
+	width: 370px;
+	height: 300px;
+}
+
+.frame3{
+	width: 370px;
+	height: 300px;
+}
+
+.companyinfo1{
+	margin-top: -150px;
+}
+
+.companyinfo2{
+	margin-top: -150px;
+}
+
+.companyinfo3{
+	margin-top: -150px;
+}
+
+/******************* FOOTER *******************/
+
+
+.footer{
+	width: 100%;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}

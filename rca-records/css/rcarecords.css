@@ -1,0 +1,243 @@
+@charset "utf-8";
+@media only screen and (max-width: 766px){
+    .rca2{
+	margin-top: 40px !important;
+    }
+
+    .rca6{
+	margin-top: 40px !important;
+    }
+	
+	.rcavictor{
+	width: 150px;
+	height: 130px;
+	margin-top: 40px;
+    }
+
+    .spacetime{
+	width: 140px;
+	height: 150px;
+	margin-top: 40px;
+    }
+
+    .chessclub{
+	width: 150px;
+	height: 80px;
+	margin-top: 40px;
+    }
+
+    .since93{
+	width: 150px;
+	height: 150px;
+	margin-top: 40px;
+    }
+	
+	.copyright{
+		text-align: center;
+	}
+	
+	.social{
+		float: none;
+	}
+	
+	#profile{
+		
+	}
+
+}
+
+body{
+    text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 12px !important;
+}
+
+/********** NAVIGATION **********/
+
+
+.navbar{
+	background: #FFFFFF;
+}
+
+.fa-bars{
+	color: #000000;
+    display: inline-block;
+	vertical-align: middle;
+}
+
+.logo{
+	width: 100px;
+	height: 30px;
+}
+
+.nav-link{
+	text-align: center;
+	color: #000000;
+}
+
+.nav-link:hover{
+	color: #eb8e53;
+}
+
+/******** Font Embed ****************/
+
+@font-face{
+	font-family: 'Helvetica';
+	src: url("../fonts/Helvetica-Black.otf") format("opentype");
+}
+
+div{
+	font-family: 'Helvetica';
+}
+
+
+.homespace{
+	margin-top: 100px;
+}
+
+.aboutspace{
+	margin-top: 100px;
+}
+
+/*********** RCA LOGOS ********/
+
+.rca1{
+	width: 100px;
+	height: 100px;
+	margin-top: 40px;
+}
+
+.rca2{
+	width: 100px;
+	height: 30px;
+	margin-top: 80px;
+}
+
+.rca3{
+	width: 100px;
+	height: 100px;
+	margin-top: 40px;
+}
+
+.rca4{
+	width: 100px;
+	height: 100px;
+    margin-top: 40px;
+}
+
+.rca5{
+	width: 100px;
+	height: 100px;
+	margin-top: 40px;
+}
+
+.rca6{
+	width: 100px;
+	height: 30px;
+	margin-top: 80px;
+}
+
+.dates{
+	margin-top: 30px;
+}
+
+.dates26{
+	margin-top: 60px;
+}
+
+
+/************ ABOUT *************/
+
+
+.aboutspace{
+	margin-top: 60px;
+}
+
+.rcavictor{
+	width: 150px;
+	height: 130px;
+	margin-top: 30px;
+}
+
+.spacetime{
+	width: 130px;
+	height: 120px;
+}
+
+.chessclub{
+	width: 150px;
+	height: 80px;
+	margin-top: 40px;
+}
+
+.since93{
+	width: 130px;
+	height: 130px;
+}
+
+.bystorm{
+	width: 150px;
+	height: 40px;
+	margin-top: 25px;
+}
+
+.cbe{
+	width: 150px;
+	height: 75px;
+}
+
+.pologrounds{
+	width: 150px;
+	height: 30px;
+	margin-top: 25px;
+}
+
+.wolfrothenstein{
+	width: 150px;
+	height: 20px;
+	margin-top: 30px;
+}
+
+.info{
+	margin-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/************ CONTACT ****************/
+
+.contactinfo{
+	margin-top: 100px;
+	text-align: left;
+}
+
+
+
+/************ PROFILE ****************/
+
+.press{
+	width: 400px;
+	height: 300px;
+}
+
+/********** FOOTER **********/
+
+
+.footer{
+	background: #FFFFFF;
+	color: #000000;
+	padding: 25px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	font-size: 10px;
+}
+
+.copyright{
+	float: left;
+}
+
+.social{
+	float: right;
+}
