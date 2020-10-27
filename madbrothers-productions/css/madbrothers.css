@@ -147,17 +147,17 @@ button:focus{
 	height: 300px;
 }
 
-
-/********** CONTACT **********/
-
-.aboutspace{
+.about{
 	margin-top: 200px;
+	margin-bottom: 293px;
+	color: #FFFFFF;
 }
 
-.contactinfo{
-	display: inline-block;
-	font-size: 13px;
-	margin-top: 200px;
+
+.contact{
+	margin-top: 230px;
+	margin-bottom: 360px;
+	color: #FFFFFF;
 }
 
 /********** FOOTER **********/
@@ -166,7 +166,7 @@ button:focus{
 	background: #FFFFFF;
 	border-top: none;
 	color: #000000;
-	padding: 25px;
+	padding: 10px;
 	bottom: 0;
 	left: 0;
 	right: 0;
