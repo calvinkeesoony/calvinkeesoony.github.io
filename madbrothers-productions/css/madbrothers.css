@@ -18,11 +18,6 @@
 	}
 }
 
-
-html{
-    scroll-behavior: smooth;
-}
-
 body{
 	margin: 0;
 	padding: 0;
@@ -48,7 +43,7 @@ p{
 }
 
 .fa-bars{
-	color: #FFFFFF;
+	color: #000000;
     display: inline-block;
 	vertical-align: middle;
 }
