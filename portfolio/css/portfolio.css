@@ -40,17 +40,29 @@
 		text-align: center !important;
 		margin-top: 60px;
 	}
+	
+	.frame1{
+	    margin-top: 20px;
+    }
+
+    .frame2{
+	    margin-top: 20px;
+    }
+	
+    .frame3{
+	    margin-top: 20px;
+    }
 }
 
 body{
 	font-family: 'Kadwa', serif !important;
 	text-transform: uppercase;
-	background: #000000 !important;
+	background: #001D45 !important;
 	color: #FFFFFF !important;
 }
 
 .navbar{
-	background: #000000;
+	background: #001D45;
 	margin: 10px;
 }
 
@@ -179,12 +191,39 @@ button:focus{
 	margin-top: -150px;
 }
 
+
+/******************* CONCEPTS *******************/
+
+.umg{
+	width: 140px;
+	height: 50px;
+	margin-top: 25px;
+}
+
+.plg{
+	width: 100px;
+	height: 100px;
+}
+
+.rca{
+	width: 170px;
+	height: 50px;
+	margin-top: 25px;
+}
+
+.ovo{
+	width: 120px;
+	height: 100px;
+}
+
+
+
 /******************* FOOTER *******************/
 
 
 .footer{
 	width: 100%;
-	background-color: #000000;
+	background-color: #001D45;
 	color: #FFFFFF;
 	text-align: center;
 }
