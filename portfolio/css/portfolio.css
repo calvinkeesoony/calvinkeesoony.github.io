@@ -1,57 +1,16 @@
 @charset "utf-8";
 @media only screen and (max-width: 766px){
-	
-	.vital{
+	.nittieinfo{
 		text-align: center !important;
-		margin-top: 60px;
 	}
 	
-	.steel{
+	.nittiesite{
 		text-align: center !important;
-		margin-top: 60px;
 	}
 	
-	.nm{
+	.site{
 		text-align: center !important;
-		margin-top: 60px;
 	}
-	
-	.jj{
-		text-align: center !important;
-		margin-top: 60px;
-	}
-	
-	.sevenfallsinfo{
-		text-align: center !important;
-		margin-top: 60px;
-	}
-	
-	.spotify{
-	    text-align: center !important;
-		margin-top: 60px;
-	}
-	
-	.ig{
-		text-align: center !important;
-		margin-top: 60px;
-	}
-	
-	.youtube{
-		text-align: center !important;
-		margin-top: 60px;
-	}
-	
-	.frame1{
-	    margin-top: 20px;
-    }
-
-    .frame2{
-	    margin-top: 20px;
-    }
-	
-    .frame3{
-	    margin-top: 20px;
-    }
 }
 
 body{
@@ -98,85 +57,58 @@ button:focus{
 	outline: none !important;
 }
 
+
+/******************* HOME *******************/
+
+.about{
+	text-transform: none;
+}
+
+
 /******************* WORK *******************/
 
 .workspace{
 	margin-top: 100px;
 }
 
-.vital{
-
-}
-
-.steel{
-    margin-top: 20px;
-}
-
-.nm{
-    margin-top: 45px;
-}
-
-.jj{
-
-}
-
-/******************* VITAL NEW YORK *******************/
-
-.vitalspace{
-	margin-top: 100px;
-}
-
-.vitalinfo{
-	color: #FFFFFF;
-}
-
-.artwork{
-	width: 450px;
-	height: 450px;
-}
-
-.ig{
+.nittie{
 	width: 300px;
-	height: 450px;
+	height: 52px;
+	margin-top: 50px;
 }
 
-.youtube{
-	width: 450px;
-	height: 75px;
+.banglez{
+	width: 150px;
+	height: 150px;
 }
 
-.spotify{
-	width: 450px;
-	height: 220px;
+.offshoot{
+	width: 300px;
+	height: 110px;
+	margin-top: 20px;
 }
 
-/*************** Steel **********************/
+/*************** Lil Nittie **********************/
 
-.steelsite{
+.nittiesite{
 	width: 500px;
-	height: 340px;
+	height: 300px;
 }
 
+.site{
+	color: #FFFFFF !important;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.site:hover{
+	color: #FF0004 !important;
+}
 
 /******************* ABOUT *********************/
 
 .aboutspace{
 	margin-top: 50px;
-}
-
-.frame1{
-	width: 370px;
-	height: 300px;
-}
-
-.frame2{
-	width: 370px;
-	height: 300px;
-}
-
-.frame3{
-	width: 370px;
-	height: 300px;
 }
 
 .companyinfo1{
@@ -189,6 +121,14 @@ button:focus{
 
 .companyinfo3{
 	margin-top: -150px;
+}
+
+
+/*************** Banglez **********************/
+
+.steelsite{
+	width: 500px;
+	height: 320px;
 }
 
 
