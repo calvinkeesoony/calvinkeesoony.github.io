@@ -14,11 +14,17 @@
 }
 
 body{
+	margin: 0;
+	padding: 0;
 	font-family: 'Kadwa', serif !important;
 	text-transform: uppercase;
 	background: #001D45 !important;
 	color: #FFFFFF !important;
 }
+
+
+
+/******************* NAVBAR *******************/
 
 .navbar{
 	background: #001D45;
@@ -43,14 +49,16 @@ body{
 
 .nav-item{
 	text-align: center;
+	overflow: hidden;
 }
 
 .nav-link{
 	color: #FFFFFF;
+	overflow: hidden;
 }
 
 .nav-link:hover{
-	color: #FF0004;
+	color: #AD0000;
 }
 
 button:focus{
@@ -62,6 +70,7 @@ button:focus{
 
 .about{
 	text-transform: none;
+	margin-top: 200px;
 }
 
 
@@ -93,6 +102,8 @@ button:focus{
 	width: 500px;
 	height: 300px;
 }
+
+
 /*************** Lil Nittie **********************/
 
 .nittiesite{
@@ -102,30 +113,12 @@ button:focus{
 
 .site{
 	color: #FFFFFF !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	overflow: hidden;
 }
 
 .site:hover{
-	color: #FF0004 !important;
-}
-
-/******************* ABOUT *********************/
-
-.aboutspace{
-	margin-top: 50px;
-}
-
-.companyinfo1{
-	margin-top: -150px;
-}
-
-.companyinfo2{
-	margin-top: -150px;
-}
-
-.companyinfo3{
-	margin-top: -150px;
+	color: #AD0000 !important;
 }
 
 
@@ -137,29 +130,12 @@ button:focus{
 }
 
 
-/******************* CONCEPTS *******************/
+/*************** CONTACT **********************/
 
-.umg{
-	width: 140px;
-	height: 50px;
-	margin-top: 25px;
+.contact{
+	margin-top: 200px;
 }
 
-.plg{
-	width: 100px;
-	height: 100px;
-}
-
-.rca{
-	width: 170px;
-	height: 50px;
-	margin-top: 25px;
-}
-
-.ovo{
-	width: 120px;
-	height: 100px;
-}
 
 
 
