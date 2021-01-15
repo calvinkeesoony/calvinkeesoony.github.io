@@ -1,16 +1,28 @@
 @charset "utf-8";
 @media only screen and (max-width: 766px){
-	.nittieinfo{
-		text-align: center !important;
-	}
 	
-	.nittiesite{
-		text-align: center !important;
-	}
+	.workspace{
+	margin-top: 50px;
+    }
 	
-	.site{
-		text-align: center !important;
-	}
+	.nittie{
+	width: 300px;
+	height: 52px;
+	margin-top: 100px;
+    }
+
+    .banglez{
+	width: 150px;
+	height: 150px;
+	margin-top: 100px;
+    }
+
+    .offshoot{
+	width: 300px;
+	height: 110px;
+	margin-top: 200px;
+    }
+
 }
 
 body{
@@ -77,7 +89,7 @@ button:focus{
 /******************* WORK *******************/
 
 .workspace{
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
 .nittie{
