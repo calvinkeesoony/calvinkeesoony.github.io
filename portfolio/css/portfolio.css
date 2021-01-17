@@ -1,10 +1,6 @@
 @charset "utf-8";
 @media only screen and (max-width: 766px){
 	
-	.workspace{
-	margin-top: 50px;
-    }
-	
 	.nittie{
 	width: 300px;
 	height: 52px;
@@ -15,14 +11,43 @@
 	width: 150px;
 	height: 150px;
 	margin-top: 100px;
+	margin-bottom: 100px;
     }
 
     .offshoot{
 	width: 300px;
 	height: 110px;
-	margin-top: 200px;
     }
 
+	.info{
+		text-align: center;
+		margin-top: 100px;
+	}
+	
+	.nittiesite{
+	width: 500px;
+	height: 300px;
+	margin-top: 10px;
+	}
+	
+	.banglezsite{
+	width: 500px;
+	height: 300px;
+	margin-top: 10px;
+	}
+	
+	.offshootsite{
+	width: 500px;
+	height: 300px;
+	margin-top: 10px;
+	}
+	
+	.site{
+		text-align: center;
+		display: block;
+	}
+	
+	
 }
 
 body{
@@ -86,6 +111,7 @@ button:focus{
 }
 
 
+
 /******************* WORK *******************/
 
 .workspace{
@@ -115,12 +141,8 @@ button:focus{
 	height: 300px;
 }
 
-
-/*************** Lil Nittie **********************/
-
-.nittiesite{
-	width: 500px;
-	height: 300px;
+.info{
+	margin-top: 100px;
 }
 
 .site{
@@ -134,12 +156,36 @@ button:focus{
 }
 
 
-/*************** Banglez **********************/
+
+
+/*************** LIL NITTIE **********************/
+
+.nittiesite{
+	width: 500px;
+	height: 300px;
+	margin-top: 100px;
+}
+
+
+/*************** BANGLEZ **********************/
 
 .steelsite{
 	width: 500px;
 	height: 320px;
+	margin-top: 100px;
 }
+
+/*************** OFFSHOOT**********************/
+
+.offshootsite{
+	margin-top: 100px;
+}
+
+
+
+
+
+
 
 
 /*************** CONTACT **********************/
@@ -147,6 +193,8 @@ button:focus{
 .contact{
 	margin-top: 200px;
 }
+
+
 
 
 
