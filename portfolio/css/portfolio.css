@@ -2,21 +2,21 @@
 @media only screen and (max-width: 766px){
 	
 	.nittie{
-	width: 300px;
-	height: 52px;
-	margin-top: 100px;
+		width: 300px;
+		height: 52px;
+		margin-top: 100px;
     }
 
     .banglez{
-	width: 150px;
-	height: 150px;
-	margin-top: 100px;
-	margin-bottom: 100px;
+		width: 150px;
+		height: 150px;
+		margin-top: 100px;
+		margin-bottom: 100px;
     }
 
     .offshoot{
-	width: 300px;
-	height: 110px;
+		width: 300px;
+		height: 110px;
     }
 
 	.info{
@@ -25,28 +25,40 @@
 	}
 	
 	.nittiesite{
-	width: 500px;
-	height: 300px;
-	margin-top: 10px;
+		width: 500px;
+		height: 300px;
+		margin-top: 10px;
 	}
 	
 	.banglezsite{
-	width: 500px;
-	height: 300px;
-	margin-top: 10px;
+		width: 500px;
+		height: 300px;
+		margin-top: 10px;
 	}
 	
 	.offshootsite{
-	width: 500px;
-	height: 300px;
-	margin-top: 10px;
-	}
-	
-	.site{
+		width: 500px;
+		height: 300px;
+		margin-top: 10px;
 		text-align: center;
-		display: block;
 	}
 	
+	.nittielink{
+		text-align: center;
+	}
+	
+	.steellink{
+		text-align: center;
+	}
+	
+	
+	.offshootlink{
+		text-align: center;
+	}
+	
+	.copyright{
+		text-align: center;
+	}
 	
 }
 
@@ -105,11 +117,11 @@ button:focus{
 
 /******************* HOME *******************/
 
-.about{
+.homeinfo{
 	text-transform: none;
-	margin-top: 200px;
+	margin-top: 130px;
+	margin-bottom: 266px;
 }
-
 
 
 /******************* WORK *******************/
@@ -133,6 +145,7 @@ button:focus{
 	width: 300px;
 	height: 110px;
 	margin-top: 20px;
+	margin-bottom: 197px;
 }
 
 
@@ -145,27 +158,26 @@ button:focus{
 	margin-top: 100px;
 }
 
-.site{
-	color: #FFFFFF !important;
-	text-decoration: none !important;
-	overflow: hidden;
-}
-
-.site:hover{
-	color: #AD0000 !important;
-}
-
-
-
 
 /*************** LIL NITTIE **********************/
 
 .nittiesite{
-	width: 500px;
+	width: 550px;
 	height: 300px;
 	margin-top: 100px;
 }
 
+.nittielink{
+	color: #FFFFFF;
+	text-decoration: none;
+	overflow: hidden;
+	margin-bottom: 159px;
+	display: inline-block;
+}
+
+.nittielink:hover{
+	color: #AD0000 !important;
+}
 
 /*************** BANGLEZ **********************/
 
@@ -175,28 +187,41 @@ button:focus{
 	margin-top: 100px;
 }
 
+.steellink{
+	color: #FFFFFF;
+	text-decoration: none;
+	overflow: hidden;
+	margin-bottom: 300px;
+}
+
+.steellink:hover{
+	color: #AD0000 !important;
+}
+
 /*************** OFFSHOOT**********************/
 
 .offshootsite{
 	margin-top: 100px;
 }
 
+.offshootlink{
+	color: #FFFFFF;
+	text-decoration: none;
+	overflow: hidden;
+	margin-bottom: 111px;
+	display: inline-block;
+}
 
-
-
-
-
-
+.offshootlink:hover{
+	color: #AD0000 !important;
+}
 
 /*************** CONTACT **********************/
 
 .contact{
 	margin-top: 200px;
+	margin-bottom: 220px;
 }
-
-
-
-
 
 
 /******************* FOOTER *******************/
@@ -204,7 +229,13 @@ button:focus{
 
 .footer{
 	width: 100%;
-	background-color: #001D45;
+	min-height: 100%;
+	padding: 20px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #AD0000;
 	color: #FFFFFF;
 	text-align: center;
 }
