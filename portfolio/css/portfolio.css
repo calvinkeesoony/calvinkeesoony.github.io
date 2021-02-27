@@ -44,16 +44,19 @@
 	}
 	
 	.nittielink{
-		text-align: center;
+		text-align: center !important;
+		display: block !important;
 	}
 	
 	.steellink{
-		text-align: center;
+		text-align: center !important;
+		display: block !important;
 	}
 	
 	
 	.offshootlink{
-		text-align: center;
+		text-align: center !important;
+		display: block !important;
 	}
 	
 	.copyright{
