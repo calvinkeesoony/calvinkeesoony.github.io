@@ -180,6 +180,7 @@ button:focus{
 
 .nittielink:hover{
 	color: #AD0000 !important;
+	text-decoration: none;
 }
 
 /*************** BANGLEZ **********************/
