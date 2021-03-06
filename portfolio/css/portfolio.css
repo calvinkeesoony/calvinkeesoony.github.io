@@ -129,32 +129,17 @@ button:focus{
 
 /******************* WORK *******************/
 
-.workspace{
-	margin-top: 200px;
-}
-
 .nittie{
 	width: 300px;
 	height: 52px;
-	margin-top: 50px;
-}
-
-.banglez{
-	width: 150px;
-	height: 150px;
+	margin-top: 240px;
 }
 
 .offshoot{
 	width: 300px;
 	height: 110px;
-	margin-top: 20px;
-	margin-bottom: 197px;
-}
-
-
-.offshootsite{
-	width: 500px;
-	height: 300px;
+	margin-top: 200px;
+	margin-bottom: 300px;
 }
 
 .info{
@@ -181,25 +166,6 @@ button:focus{
 .nittielink:hover{
 	color: #AD0000 !important;
 	text-decoration: none;
-}
-
-/*************** BANGLEZ **********************/
-
-.steelsite{
-	width: 500px;
-	height: 320px;
-	margin-top: 100px;
-}
-
-.steellink{
-	color: #FFFFFF;
-	text-decoration: none;
-	overflow: hidden;
-	margin-bottom: 300px;
-}
-
-.steellink:hover{
-	color: #AD0000 !important;
 }
 
 /*************** OFFSHOOT**********************/
