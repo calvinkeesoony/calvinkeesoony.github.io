@@ -7,13 +7,6 @@
 		margin-top: 100px;
     }
 
-    .banglez{
-		width: 150px;
-		height: 150px;
-		margin-top: 100px;
-		margin-bottom: 100px;
-    }
-
     .offshoot{
 		width: 300px;
 		height: 110px;
@@ -30,11 +23,6 @@
 		margin-top: 10px;
 	}
 	
-	.banglezsite{
-		width: 500px;
-		height: 300px;
-		margin-top: 10px;
-	}
 	
 	.offshootsite{
 		width: 500px;
@@ -44,11 +32,6 @@
 	}
 	
 	.nittielink{
-		text-align: center !important;
-		display: block !important;
-	}
-	
-	.steellink{
 		text-align: center !important;
 		display: block !important;
 	}
@@ -190,7 +173,7 @@ button:focus{
 
 .contact{
 	margin-top: 200px;
-	margin-bottom: 220px;
+	margin-bottom: 290px;
 }
 
 
