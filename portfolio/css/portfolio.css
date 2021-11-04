@@ -1,6 +1,10 @@
 @charset "utf-8";
 @media only screen and (max-width: 766px){
 	
+	.homeinfo{
+		margin-bottom: 195px !important;
+	}
+	
 	.nittie{
 		width: 300px;
 		height: 52px;
@@ -48,8 +52,6 @@ body{
 	color: #FFFFFF !important;
 }
 
-
-
 /******************* NAVBAR *******************/
 
 .navbar{
@@ -84,7 +86,7 @@ body{
 }
 
 .nav-link:hover{
-	color: #AD0000;
+	color: #747474;
 }
 
 button:focus{
@@ -95,11 +97,9 @@ button:focus{
 /******************* HOME *******************/
 
 .homeinfo{
-	text-transform: none;
-	margin-top: 130px;
-	margin-bottom: 172px;
+	margin-top: 280px;
+	margin-bottom: 280px;
 }
-
 
 /******************* WORK *******************/
 
@@ -168,6 +168,15 @@ button:focus{
 	margin-bottom: 290px;
 }
 
+.linkedin{
+	color: #FFFFFF;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.linkedin:hover{
+	color: #747474;
+}
 
 /******************* FOOTER *******************/
 
@@ -183,4 +192,5 @@ button:focus{
 	background-color: #001D45;
 	color: #FFFFFF;
 	text-align: center;
+	position: relative;
 }
