@@ -1,6 +1,14 @@
 @charset "utf-8";
 @media only screen and (max-width: 766px){
 	
+	
+	.nav-item{
+	text-align: right !important;
+}
+	.nav-item:hover{
+	margin-right: 10px !important;
+}
+	
 	.homeinfo{
 		margin-bottom: 195px !important;
 	}
@@ -46,7 +54,8 @@
 body{
 	margin: 0;
 	padding: 0;
-    font-family: 'Bitter', serif !important; 
+	font-family: 'League Gothic',sans-serif !important;
+	font-size: 24px !important;
 	text-transform: uppercase;
 	background: #000000 !important;
 	color: #FFFFFF !important;
@@ -57,7 +66,15 @@ body{
 
 .navbar{
 	background: #000000;
-	padding: 15px;
+}
+
+.navbar-brand{
+	color: #FFFFFF;
+	font-size: 24px !important;
+}
+
+.navbar-brand:hover{
+	color: inherit;
 }
 
 .fa-bars{
@@ -65,15 +82,6 @@ body{
 	display: inline-block;
 	font-size: 22px;
 	text-align: center;
-}
-
-
-.navbar-brand{
-	color: #FFFFFF;
-}
-
-.navbar-brand:hover{
-	color: #FFFFFF;
 }
 
 .nav-item{
@@ -104,23 +112,71 @@ button:focus{
 
 .homeinfo{
 	text-align: center;
-	margin-top: 281.5px;
-	margin-bottom: 281.5px;
+	margin-top: 240px;
+	margin-bottom: 233px;
 }
+
 
 /******************* WORK *******************/
 
+.titles{
+	margin-top: 285px;
+	margin-bottom: 285px;
+}
+
+.marketing{
+	color: #FFFFFF;
+}
+
+.marketing:hover{
+	color: #555555;
+	text-decoration: none;
+}
+
+.webdesign{
+	color: #FFFFFF;
+}
+
+.webdesign:hover{
+	color: #555555;
+	text-decoration: none;
+}
+
+
+/******************* MARKETING *******************/
+
+.searchcampaigns{
+	margin-top: 100px;
+}
+
+.socialcampaigns{
+	margin-top: 100px;
+}
+
+.macbook{
+	width: 600px;
+	height: 400px;
+}
+
+.iphone{
+	width: 220px;
+	height: 450px;
+	margin-bottom: 200px;
+}
+
+/**************** WEB DESIGN ********************/
+
 .nittie{
+	margin-top: 260px;
 	width: 300px;
 	height: 52px;
-	margin-top: 280px;
 }
 
 .offshoot{
+	margin-top: 230px;
+	margin-bottom: 270px;
 	width: 300px;
 	height: 110px;
-	margin-top: 250px;
-	margin-bottom: 275px;
 }
 
 
@@ -178,8 +234,8 @@ button:focus{
 
 .contact{
 	padding: 50px 0 50px;
-	margin-top: 207.5px;
-	margin-bottom: 207.5px;
+	margin-top: 200px;
+	margin-bottom: 183px;
 }
 
 .linkedin{
@@ -187,7 +243,7 @@ button:focus{
 }
 
 .linkedin:hover{
-	color: #000000;
+	color: #555555;
 	text-decoration: none;
 }
 
@@ -204,4 +260,5 @@ button:focus{
 	text-align: center;
 	position: relative;
 	padding: 15px;
+	font-size: 16px;
 }
